@@ -7,12 +7,14 @@
 //
 
 #import "QQAppDelegate.h"
+#import <TestPodss/TestiComeSDK.h>
 
 @implementation QQAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [TestiComeSDK dogApple];
     return YES;
 }
 
